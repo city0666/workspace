@@ -20,25 +20,11 @@ public class MainActivity extends Activity {
 		menu = new SlidingMenu(this);
 		menu.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
 		menu.setFadeEnabled(true);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 		//menu.setFadeDegree(0.35f);
 		menu.setFadeDegree(0.7f);
 		menu.attachToActivity(this, SlidingMenu.SLIDING_CONTENT | SlidingMenu.SLIDING_WINDOW);
-=======
-		menu.setFadeDegree(0.35f);
-		menu.attachToActivity(this, SlidingMenu.SLIDING_CONTENT );
->>>>>>> 55b54867386d8edea72f6f4f0528e9b45a7df700
-=======
-		menu.setFadeDegree(0.35f);
-		menu.attachToActivity(this, SlidingMenu.SLIDING_CONTENT );
->>>>>>> 55b54867386d8edea72f6f4f0528e9b45a7df700
-=======
-		//menu.setFadeDegree(0.35f);
-		menu.setFadeDegree(0.7f);
-		menu.attachToActivity(this, SlidingMenu.SLIDING_CONTENT | SlidingMenu.SLIDING_WINDOW);
->>>>>>> parent of 8efc8cb... left menu framework ok
+
 		menu.setMenu(R.layout.behindview);
 		menu.setBehindOffset(300);
 		//menu.setAboveOffset(100);
@@ -51,35 +37,13 @@ public class MainActivity extends Activity {
 				// TODO Auto-generated method stub
 				startActivity(new Intent(MainActivity.this,LeftAndRightActivity.class));
 			}});
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-			
->>>>>>> 55b54867386d8edea72f6f4f0528e9b45a7df700
-=======
-			
->>>>>>> 55b54867386d8edea72f6f4f0528e9b45a7df700
-=======
->>>>>>> parent of 8efc8cb... left menu framework ok
+
 	}
 
 	@Override
 	protected void onStart() {
 		// TODO Auto-generated method stub
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 		super.onStart();
-=======
-		super.onStart();	
->>>>>>> 55b54867386d8edea72f6f4f0528e9b45a7df700
-=======
-		super.onStart();	
->>>>>>> 55b54867386d8edea72f6f4f0528e9b45a7df700
-=======
-		super.onStart();
->>>>>>> parent of 8efc8cb... left menu framework ok
 	}
 
 	@Override
