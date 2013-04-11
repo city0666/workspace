@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+
+
+    <TextView
+        android:id="@+id/syncText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dip"
+        android:layout_weight="0.47"
+        android:text="@string/sync"
+        android:textSize="50dip"
+        android:width="100dip" >
+
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/syncnow"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:minHeight="30dip"
+        android:minWidth="30dip"
+        android:background="#00000000"
+        android:padding="0dip"
+        android:src="@drawable/refresh" />
+
+    <CheckBox
+        android:id="@+id/autosync"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.36"
+        android:text="@string/auto_syc" />
+
+
+
+
+    <RadioGroup
+        android:id="@+id/syncrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dip"
+        android:layout_weight="1.04"
+        android:contentDescription="@string/sync_circle" >
+     
+        <RadioButton 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:id="@+id/radiohour" 
+            android:text="@string/perhour" 
+            android:checked="true"
+            ></RadioButton>     
+        <RadioButton 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:id="@+id/radioday"
+            android:text="@string/perday"
+            ></RadioButton>
+        <RadioButton 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:id="@+id/radioweek"
+            android:text="@string/perweek"
+            ></RadioButton>
+    </RadioGroup>
+
+</LinearLayout>
